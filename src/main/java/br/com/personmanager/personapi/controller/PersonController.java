@@ -1,5 +1,6 @@
 package br.com.personmanager.personapi.controller;
 
+import br.com.personmanager.personapi.entity.Person;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -10,6 +11,8 @@ public class PersonController {
 
     @GetMapping
     public String getBook() {
+
+
         return "API test";
     }
 }
